@@ -50,35 +50,35 @@ S3 → Lambda → SQS → Lambda → SNS → Lambda → SES → Email 📧
 
 ### 🪣 S3 Upload
 
-![S3 Upload](screenshots/01-s3-bucket-upload.png)
+![S3 Upload](https://github.com/yashraj747/aws-file-processing-pipeline/blob/1d0e43e4135949ca8fecf6796f2e6eec670d0159/Screenshots/01-s3-bucket-upload.png)
 
 ### ⚡ Lambda (S3 → SQS)
 
-![Lambda Producer](screenshots/02-lambda-s3-to-sqs-producer.png)
+![Lambda Producer](https://github.com/yashraj747/aws-file-processing-pipeline/blob/1d0e43e4135949ca8fecf6796f2e6eec670d0159/Screenshots/02-lambda-s3-to-sqs-producer.png)
 
 ### 📬 SQS Queue
 
-![SQS](screenshots/03-sqs-queue-dashboard.png)
+![SQS](https://github.com/yashraj747/aws-file-processing-pipeline/blob/main/Screenshots/04-sqs-queue-dashboard.png)
 
 ### ⚡ Lambda (SQS Worker)
 
-![Worker Lambda](screenshots/04-lambda-sqs-worker-processor.png)
+![Worker Lambda](https://github.com/yashraj747/aws-file-processing-pipeline/blob/main/Screenshots/03-lambda-sqs-worker-processor.png)
 
 ### 📢 SNS Topic
 
-![SNS](screenshots/05-sns-topic-subscription.png)
+![SNS](https://github.com/yashraj747/aws-file-processing-pipeline/blob/1d0e43e4135949ca8fecf6796f2e6eec670d0159/Screenshots/05-sns-topic-subscription.png)
 
 ### ⚡ Lambda (SNS → SES)
 
-![SNS to SES Lambda](screenshots/06-lambda-sns-to-ses-forwarder.png)
+![SNS to SES Lambda](https://github.com/yashraj747/aws-file-processing-pipeline/blob/main/Screenshots/06-lambda-sns-to-ses-forwarder.png)
 
 ### 📊 CloudWatch Logs
 
-![Logs](screenshots/07-cloudwatch-logs-success.png)
+![Logs](https://github.com/yashraj747/aws-file-processing-pipeline/blob/1d0e43e4135949ca8fecf6796f2e6eec670d0159/Screenshots/07-cloudwatch-logs-success.png)
 
 ### 📧 Email Output
 
-![Email](screenshots/08-gmail-notification-output.png)
+![Email](https://github.com/yashraj747/aws-file-processing-pipeline/blob/1d0e43e4135949ca8fecf6796f2e6eec670d0159/Screenshots/08-gmail-notification-output.png)
 
 ---
 
